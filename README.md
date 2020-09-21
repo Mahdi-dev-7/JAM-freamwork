@@ -1,2 +1,2 @@
 # mmj-freamwork
-we want to creat a best freamwork
+We want to creat a best freamwork
