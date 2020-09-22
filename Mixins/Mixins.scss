@@ -1,0 +1,5 @@
+@import "../Variables/Variables";
+
+@mixin Sizing($X) {
+  font-size: $X*$Basic-Size;
+}

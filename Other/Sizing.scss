@@ -1,0 +1,6 @@
+@import "../Variables/Variables";
+@import "../Mixins/Mixins";
+
+h1 {
+  @include Sizing(1);
+}
