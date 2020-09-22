@@ -1,2 +1,2 @@
 # JAM-freamwork
-<i>We want to creat the best freamwork !</i>
+<i style="color:skyblue;">We want to creat the best freamwork!</i>
