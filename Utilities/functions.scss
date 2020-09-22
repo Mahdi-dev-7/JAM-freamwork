@@ -1,0 +1,4 @@
+@import "../Variables/Variables";
+@function Sizing($X) {
+  @return $Basic-Size*$X;
+}
