@@ -1,0 +1,62 @@
+@import "../Variables/Variables";
+@import "../Utilities/functions";
+@import "../Mixins/Mixins";
+
+
+@media screen and (min-width ==$xl-Size) {
+  h1 {
+    font-size: Sizing(4.9);
+    @include fw(bold);
+    @include margin(0.3, 10, 0.3, 2);
+  }
+
+  h2 {
+    font-size: Sizing(4.3);
+    @include fw(800);
+    @include margin(0.25, 10, 0.25, 1.9);
+
+
+  }
+
+  h3 {
+    font-size: Sizing(3.8);
+    @include fw(600);
+    @include margin(0.25, 10, 0.25, 1.85);
+
+  }
+
+  h4 {
+    font-size: Sizing(3.4);
+    @include fw(600);
+    @include margin(0.25, 10, 0.25, 1.75);
+  }
+
+  h5 {
+    font-size: Sizing(3);
+    @include fw(600);
+    @include margin(0.25, 10, 0.25, 1.7);
+  }
+
+  h6 {
+    font-size: Sizing(2.5);
+    @include fw(600);
+    @include margin(0.25, 10, 0.25, 1.7);
+  }
+
+}
+
+@media screen and (min-width ==$lg-Size) {
+
+}
+
+@media screen and (min-width ==$md-Size) {
+
+}
+
+@media screen and (min-width ==$xl-Size) {
+
+}
+
+@media screen and (max-width <$xl-Size) {
+
+}
