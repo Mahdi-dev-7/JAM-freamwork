@@ -1,0 +1,9 @@
+@function text-decoration($decoration) {
+
+    @if($decoration){
+        @return underline;
+    } @else {
+        @return none;
+    }
+
+}

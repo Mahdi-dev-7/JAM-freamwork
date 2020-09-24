@@ -1,0 +1,16 @@
+.btn {
+
+    display: inline-block;
+    border-radius: $btn-border-radius;
+    border: $btn-border;
+    text-decoration: text-decoration($btn-decoration);
+    line-height: $btn-line-height;
+    padding: $btn-padding;
+    vertical-align: middle;
+    text-transform: uppercase;
+    @include transition(all, 0.5s);
+
+    &-primary {@include btn-color($primary,$primary-light)}
+    &-outline-primary {@include btn-outline-color($primary)}
+
+}

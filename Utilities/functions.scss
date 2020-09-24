@@ -1,4 +1,7 @@
-@import "../Variables/Variables";
+@import "color";
+@import "btn";
+
+
 @function Sizing($X) {
   @return $Basic-Size*$X;
 }

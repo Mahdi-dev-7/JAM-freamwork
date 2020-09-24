@@ -1,4 +1,5 @@
-@import "../Variables/Variables";
+@import "transition";
+@import "btn";
 
 @mixin fw($S){
   font-weight: $S;
