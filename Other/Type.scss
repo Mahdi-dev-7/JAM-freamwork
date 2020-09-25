@@ -1,18 +1,23 @@
 @import "Fonts";
+@import "../Variables/Variables";
+@import "../Mixins/Mixins";
+@import "../Utilities/functions";
 
-
-@media screen and (min-width ==$xl-Size) {
-  html {
-    box-sizing: border-box;
-  }
-  * {
-    box-sizing: inherit;
-  }
-  body {
-    font-family: Vazir, Sahel, sans-serif !important;
-    background-color: #e1e1e1 !important;
-  }
+@media screen and (min-width >=$xl-Size) {
   %Sizing {
+    html {
+      box-sizing: border-box;
+    }
+
+    * {
+      box-sizing: inherit;
+    }
+
+    body {
+      font-family: Vazir, Sahel, sans-serif !important;
+      background-color: #e1e1e1 !important;
+    }
+
     h1 {
       font-size: Sizing(4.9);
       @include fw(bold);
@@ -52,18 +57,114 @@
   }
 }
 
-@media screen and (min-width ==$lg-Size) {
-@extend %Sizing;
+@media screen and (min-width >=$lg-Size) {
+  @extend %Sizing;
+  h1 {
+    font-size: Sizing(4.7);
+  }
+
+  h2 {
+    font-size: Sizing(4.1);
+  }
+
+  h3 {
+    font-size: Sizing(3.6);
+
+  }
+
+  h4 {
+    font-size: Sizing(3.2);
+  }
+
+  h5 {
+    font-size: Sizing(2.8)
+  }
+
+  h6 {
+    font-size: Sizing(2.3)
+  }
 }
 
-@media screen and (min-width ==$md-Size) {
+@media screen and (min-width >=$md-Size) {
   @extend %Sizing;
+  h1 {
+    font-size: Sizing(4.4);
+  }
+
+  h2 {
+    font-size: Sizing(3.8);
+  }
+
+  h3 {
+    font-size: Sizing(3.3);
+
+  }
+
+  h4 {
+    font-size: Sizing(2.9);
+  }
+
+  h5 {
+    font-size: Sizing(2.5)
+  }
+
+  h6 {
+    font-size: Sizing(2)
+  }
 }
 
-@media screen and (min-width ==$xl-Size) {
+@media screen and (min-width >=$sm-Size) {
   @extend %Sizing;
+  h1 {
+    font-size: Sizing(4);
+  }
+
+  h2 {
+    font-size: Sizing(3.4);
+  }
+
+  h3 {
+    font-size: Sizing(2.9);
+
+  }
+
+  h4 {
+    font-size: Sizing(2.5);
+  }
+
+  h5 {
+    font-size: Sizing(2.1)
+  }
+
+  h6 {
+    font-size: Sizing(1.6)
+  }
 }
 
-@media screen and (max-width <$xl-Size) {
+@media screen and (max-width <$sm-Size) {
   @extend %Sizing;
+  h1 {
+    font-size: Sizing(3.5);
+  }
+
+  h2 {
+    font-size: Sizing(2.9);
+  }
+
+  h3 {
+    font-size: Sizing(2.4);
+
+  }
+
+  h4 {
+    font-size: Sizing(2);
+  }
+
+  h5 {
+    font-size: Sizing(1.6)
+  }
+
+  h6 {
+    font-size: Sizing(1.1)
+  }
 }
