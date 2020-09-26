@@ -54,6 +54,33 @@
       @include fw(600);
       @include margin(0.25, 10, 0.25, 1.7);
     }
+
+    div {
+      font-size: Sizing(4);
+      @include fw(300);
+      @include margin(1, 1, 1, 1);
+    }
+
+    span {
+      display: inline-block;
+      font-size: Sizing(1.5);
+      @include fw(100);
+      @include margin(0.35, 0.35, 0.35, 0.35);
+    }
+
+    strong {
+      display: inline-block;
+      font-size: Sizing(1);
+      @include fw(bold);
+      @include margin(0.5, 0.5, 0.5, 0.5);
+    }
+
+    i {
+      display: inline-block;
+      font-size: Sizing(0.9);
+      @include fw(normal);
+      @include margin(0.5, 0.5, 0.5, 0.5);
+    }
   }
 }
 
@@ -83,6 +110,21 @@
   h6 {
     font-size: Sizing(2.3)
   }
+  div {
+    font-size: Sizing(3.5);
+    @include margin(0.8, 0.8, 0.8, 0.8);
+  }
+  span {
+    font-size: Sizing(1.3);
+    @include margin(0.3, 0.3, 0.3, 0.3);
+  }
+  strong {
+    font-size: Sizing(0.9);
+    @include margin(0.4, 0.4, 0.4, 0.4);
+  }
+  i {
+    font-size: Sizing(0.85);
+  }
 }
 
 @media screen and (min-width >=$md-Size) {
@@ -110,6 +152,21 @@
 
   h6 {
     font-size: Sizing(2)
+  }
+  div {
+    font-size: Sizing(3);
+    @include margin(0.65, 0.65, 0.65, 0.65);
+  }
+  span {
+    font-size: Sizing(1.2);
+    @include margin(0.25, 0.25, 0.25, 0.25);
+  }
+  strong {
+    font-size: Sizing(0.8);
+    @include margin(0.3, 0.3, 0.3, 0.3);
+  }
+  i {
+    font-size: Sizing(0.83);
   }
 }
 
@@ -139,6 +196,21 @@
   h6 {
     font-size: Sizing(1.6)
   }
+  div {
+    font-size: Sizing(2.5);
+    @include margin(0.5, 0.5, 0.5, 0.5);
+  }
+  span {
+    font-size: Sizing(1.075);
+    @include margin(0.2, 0.2, 0.2, 0.2);
+  }
+  strong {
+    font-size: Sizing(0.75);
+    @include margin(0.25, 0.25, 0.25, 0.25);
+  }
+  i {
+    font-size: Sizing(0.81);
+  }
 }
 
 @media screen and (max-width <$sm-Size) {
@@ -166,5 +238,21 @@
 
   h6 {
     font-size: Sizing(1.1)
+  }
+  div {
+    font-size: Sizing(2);
+    @include margin(0.4, 0.4, 0.4, 0.4);
+  }
+  span {
+    font-size: Sizing(0.95);
+    @include margin(0.15, 0.15, 0.15, 0.15);
+  }
+  strong {
+    font-size: Sizing(0.75);
+    @include margin(0.25, 0.25, 0.25, 0.25);
+  }
+  i {
+    font-size: Sizing(0.8);
+    @include margin(0.4, 0.4, 0.4, 0.4);
   }
 }
