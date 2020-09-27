@@ -81,6 +81,12 @@
       @include fw(normal);
       @include margin(0.5, 0.5, 0.5, 0.5);
     }
+
+    small {
+      font-size: Sizing(0.85);
+      @include fw(normal);
+      @include margin(0.4 .0 .4, 0.4, 0);
+    }
   }
 }
 
@@ -125,6 +131,9 @@
   i {
     font-size: Sizing(0.85);
   }
+  small {
+    font-size: Sizing(0.8);
+  }
 }
 
 @media screen and (min-width >=$md-Size) {
@@ -167,6 +176,10 @@
   }
   i {
     font-size: Sizing(0.83);
+  }
+  small {
+    font-size: Sizing(0.75);
+    @include margin(0.35, 0.35, 0.35, 0);
   }
 }
 
@@ -211,6 +224,10 @@
   i {
     font-size: Sizing(0.81);
   }
+  small {
+    font-size: Sizing(0.73);
+    @include margin(0.35, 0.35, 0.35, 0);
+  }
 }
 
 @media screen and (max-width <$sm-Size) {
@@ -254,5 +271,9 @@
   i {
     font-size: Sizing(0.8);
     @include margin(0.4, 0.4, 0.4, 0.4);
+  }
+  small {
+    font-size: Sizing(0.7);
+    @include margin(0.35, 0.35, 0.35, 0);
   }
 }
