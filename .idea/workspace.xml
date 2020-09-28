@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c9a512-d330-4e0c-befc-b68788df2aeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="24c9a512-d330-4e0c-befc-b68788df2aeb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +44,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -70,11 +65,7 @@
       <workItem from="1600888548999" duration="470000" />
       <workItem from="1600924153428" duration="83000" />
       <workItem from="1600947431727" duration="790000" />
-      <workItem from="1601136975257" duration="2616000" />
-      <workItem from="1601186492534" duration="672000" />
-      <workItem from="1601269736226" duration="1415000" />
-      <workItem from="1601271256494" duration="388000" />
-      <workItem from="1601272081677" duration="244000" />
+      <workItem from="1601294889472" duration="1346000" />
     </task>
     <servers />
   </component>

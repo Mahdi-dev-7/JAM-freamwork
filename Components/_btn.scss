@@ -13,4 +13,30 @@
     &-primary {@include btn-color($primary,$primary-light)}
     &-outline-primary {@include btn-outline-color($primary)}
 
+    &-primary {@include btn-color($secondary,$secondary-light)}
+    &-outline-primary {@include btn-outline-color($secondary)}
+
+    &-primary {@include btn-color($success,$success-light)}
+    &-outline-primary {@include btn-outline-color($success)}
+
+    &-primary {@include btn-color($info,$info-dark)}
+    &-outline-primary {@include btn-outline-color($info)}
+
+    &-primary {@include btn-color($warning,$warning-light)}
+    &-outline-primary {@include btn-outline-color($warning)}
+
+    &-primary {@include btn-color($danger,$danger-light)}
+    &-outline-primary {@include btn-outline-color($danger)}
+
+    &.disabled ,
+    &[disabled] {
+        cursor: default;
+        opacity: 0.65;
+        color: lighten(#999, 10%);
+    }
+
+    &-block {
+        display: block;
+    }
+
 }
