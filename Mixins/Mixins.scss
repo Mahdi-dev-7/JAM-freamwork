@@ -2,10 +2,8 @@
 @import "btn";
 @import "color";
 @import "../Variables/Variables";
+@import "margin&padding";
 
 @mixin fw($S){
   font-weight: $S;
-}
-@mixin margin($t,$r,$b,$l){
-  margin: $Basic-Size*$t,$Basic-Size*$r,$Basic-Size*$b,$Basic-Size*$l;
 }

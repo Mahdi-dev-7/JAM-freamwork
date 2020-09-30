@@ -1,0 +1,75 @@
+@import "../Variables/Variables";
+// Start Margin
+@mixin margin($t,$r,$b,$l) {
+  margin: $Basic-Size*$t, $Basic-Size*$r, $Basic-Size*$b, $Basic-Size*$l;
+}
+
+@mixin m($margin) {
+  margin: $Basic-Size*$margin !important;
+}
+
+@mixin mx($mx) {
+  margin-right: $Basic-Size*$mx !important;
+  margin-left: $Basic-Size*$mx !important;
+}
+
+@mixin my($my) {
+  margin-top: $Basic-Size*$my !important;
+  margin-bottom: $Basic-Size*$my !important;
+}
+
+@mixin mt($mt) {
+  margin-top: $Basic-Size*$mt !important;
+}
+
+@mixin mr($mr) {
+  margin-right: $Basic-Size*$mr !important;
+}
+
+@mixin mb($mb) {
+  margin-bottom: $Basic-Size*$mb !important;
+}
+
+@mixin ml($ml) {
+  margin-left: $Basic-Size*$ml !important;
+}
+
+// End Margin
+
+
+// Start Padding
+@mixin padding($t,$r,$b,$l) {
+  padding: $Basic-Size*$t, $Basic-Size*$r, $Basic-Size*$b, $Basic-Size*$l;
+}
+
+@mixin p($padding) {
+  margin: $Basic-Size*$padding !important;
+}
+
+@mixin px($px) {
+  padding-right: $Basic-Size*$px !important;
+  padding-left: $Basic-Size*$px !important;
+}
+
+@mixin py($py) {
+  padding-top: $Basic-Size*$py !important;
+  padding-bottom: $Basic-Size*$py !important;
+}
+
+@mixin pt($pt) {
+  padding-top: $Basic-Size*$pt !important;
+}
+
+@mixin pr($pr) {
+  padding-right: $Basic-Size*$pr !important;
+}
+
+@mixin pb($pb) {
+  padding-bottom: $Basic-Size*$pb !important;
+}
+
+@mixin pl($pl) {
+  padding-left: $Basic-Size*$pl !important;
+}
+
+// End Padding
