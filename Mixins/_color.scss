@@ -1,0 +1,9 @@
+@mixin color($color){
+  color: $color !important;
+}
+@mixin bgColor($bgColor){
+  background-color: $bgColor !important;
+}
+@mixin borderColor($borderColor){
+  border-color: $borderColor !important;
+}
