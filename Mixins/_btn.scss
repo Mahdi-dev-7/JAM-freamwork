@@ -1,3 +1,4 @@
+@import "../Utilities/functions";
 @mixin btn-color($color,$color-light) {
     background-color: $color;
     border: 1px solid $color;

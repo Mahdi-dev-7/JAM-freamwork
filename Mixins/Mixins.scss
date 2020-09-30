@@ -4,6 +4,6 @@
 @import "../Variables/Variables";
 @import "margin&padding";
 
-@mixin fw($S){
-  font-weight: $S;
+@mixin fw($W){
+  font-weight: $W;
 }
