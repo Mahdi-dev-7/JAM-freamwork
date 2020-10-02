@@ -1,0 +1,7 @@
+
+@mixin border($size,$model,$color){
+  border: $size $model $color;
+}
+@mixin borderRadius($size){
+  border-radius: $size;
+}

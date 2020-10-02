@@ -1,0 +1,37 @@
+@import "../Variables/Variables";
+@import "../Mixins/Mixins";
+
+.SBtn {
+  @include color(#c12e19);
+  @include borderRadius(5px);
+  @include transition(all,0.5s);
+  background: none;
+  @include border(2px,solid);
+  font: inherit !important;
+  line-height: 1;
+  margin: 0.5em !important;
+  padding: 1em 2em !important;
+
+  &-offset {
+    box-shadow: 0.3em 0.3em 0 0 #007bff, inset 0.3em 0.3em 0 0 #107bff !important;
+    @include borderColor(#007bff);
+    @include color(#007bff);
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 0 #0e13ff, inset 6em 3.5em 0 0 #0e13ff !important;
+      @include borderColor(#0e13ff);
+      @include color(#ffffff);
+    }
+  }
+  &-raise{
+    &:hover,
+    &:focus{
+      @include color(#e1e1e1);
+      @include borderColor(#c1ba1d);
+      @include bgColor(#c1ba1d);
+      box-shadow: 0 3em 2em -0.85em #c1ba1d !important;
+      transform: translateY(-0.25em);
+    }
+  }
+}

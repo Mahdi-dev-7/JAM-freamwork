@@ -1,544 +1,542 @@
 @import "../Variables/color";
 @import "../Mixins/color";
 
-.jam {
 
-  &-txt {
+.txt {
 
-    &-primary {
-      @include color($primary);
-    }
-
-    &-primary-light {
-      @include color($primary-light);
-    }
-
-    &-secondary {
-      @include color($secondary);
-    }
-
-    &-secondary-light {
-      @include color($secondary-light);
-    }
-
-    &-success {
-      @include color($success);
-    }
-
-    &-success-light {
-      @include color($success-light);
-    }
-
-    &-info {
-      @include color($info);
-    }
-
-    &-info-dark {
-      @include color($info-dark);
-    }
-
-    &-warning {
-      @include color($warning);
-    }
-
-    &-warning-light {
-      @include color($warning-light);
-    }
-
-    &-danger {
-      @include color($danger);
-    }
-
-    &-danger-light {
-      @include color($danger-light);
-    }
-
-    &-light {
-      @include color($light);
-    }
-
-    &-dark {
-      @include color($dark);
-    }
-
-    &-green {
-      @include color($green);
-    }
-
-    &-green-light {
-      @include color($green-l);
-    }
-
-    &-green-dark {
-      @include color($green-d);
-    }
-
-    &-green-ui {
-      @include color($green-ui);
-    }
-
-    &-blue {
-      @include color($blue);
-    }
-
-    &-blue-light {
-      @include color($blue-l);
-    }
-
-    &-blue-dark {
-      @include color($blue-d);
-    }
-
-    &-blue-ui {
-      @include color($blue-ui);
-    }
-
-    &-red {
-      @include color($red);
-    }
-
-    &-red-light {
-      @include color($red-l);
-    }
-
-    &-red-dark {
-      @include color($red-d);
-    }
-
-    &-red-ui {
-      @include color($red-ui);
-    }
-
-    &-pink {
-      @include color($pink);
-    }
-
-    &-pink-ui {
-      @include color($pink-ui);
-    }
-
-    &-purple {
-      @include color($purple);
-    }
-
-    &-purple-light {
-      @include color($purple-l);
-    }
-
-    &-purple-dark {
-      @include color($purple-d);
-    }
-
-    &-purple-ui {
-      @include color($purple-ui);
-    }
-
-    &-turquoise {
-      @include color($turquoise);
-    }
-
-    &-turquoise-light {
-      @include color($turquoise-l);
-    }
-
-    &-turquoise-dark {
-      @include color($turquoise-d);
-    }
-
-    &-turquoise-ui {
-      @include color($turquoise-ui);
-    }
-
-    &yellow {
-      @include color($yellow);
-    }
-
-    &yellow-light {
-      @include color($yellow-l);
-    }
-
-    &yellow-dark {
-      @include color($yellow-d);
-    }
-
-    &yellow-ui {
-      @include color($yellow-ui);
-    }
-
-    &-orange {
-      @include color($orange);
-    }
-
-    &-orange-light {
-      @include color($orange-l);
-    }
-
-    &-orange-dark {
-      @include color($orange-d);
-    }
-
-    &-orange-ui {
-      @include color($orange-ui);
-    }
-
+  &-primary {
+    @include color($primary);
   }
 
-  &-bg {
-    &-primary {
-      @include bgColor($primary);
-    }
-
-    &-primary-light {
-      @include bgColor($primary-light);
-    }
-
-    &-secondary {
-      @include bgColor($secondary);
-    }
-
-    &-secondary-light {
-      @include bgColor($secondary-light);
-    }
-
-    &-success {
-      @include bgColor($success);
-    }
-
-    &-success-light {
-      @include bgColor($success-light);
-    }
-
-    &-info {
-      @include bgColor($info);
-    }
-
-    &-info-dark {
-      @include bgColor($info-dark);
-    }
-
-    &-warning {
-      @include bgColor($warning);
-    }
-
-    &-warning-light {
-      @include bgColor($warning-light);
-    }
-
-    &-danger {
-      @include bgColor($danger);
-    }
-
-    &-danger-light {
-      @include bgColor($danger-light);
-    }
-
-    &-light {
-      @include bgColor($light);
-    }
-
-    &-dark {
-      @include bgColor($dark);
-    }
-
-    &-green {
-      @include bgColor($green);
-    }
-
-    &-green-light {
-      @include bgColor($green-l);
-    }
-
-    &-green-dark {
-      @include bgColor($green-d);
-    }
-
-    &-green-ui {
-      @include bgColor($green-ui);
-    }
-
-    &-blue {
-      @include bgColor($blue);
-    }
-
-    &-blue-light {
-      @include bgColor($blue-l);
-    }
-
-    &-blue-dark {
-      @include bgColor($blue-d);
-    }
-
-    &-blue-ui {
-      @include bgColor($blue-ui);
-    }
-
-    &-red {
-      @include bgColor($red);
-    }
-
-    &-red-light {
-      @include bgColor($red-l);
-    }
-
-    &-red-dark {
-      @include bgColor($red-d);
-    }
-
-    &-red-ui {
-      @include bgColor($red-ui);
-    }
-
-    &-pink {
-      @include bgColor($pink);
-    }
-
-    &-pink-ui {
-      @include bgColor($pink-ui);
-    }
-
-    &-purple {
-      @include bgColor($purple);
-    }
-
-    &-purple-light {
-      @include bgColor($purple-l);
-    }
-
-    &-purple-dark {
-      @include bgColor($purple-d);
-    }
-
-    &-purple-ui {
-      @include bgColor($purple-ui);
-    }
-
-    &-turquoise {
-      @include bgColor($turquoise);
-    }
-
-    &-turquoise-light {
-      @include bgColor($turquoise-l);
-    }
-
-    &-turquoise-dark {
-      @include bgColor($turquoise-d);
-    }
-
-    &-turquoise-ui {
-      @include bgColor($turquoise-ui);
-    }
-
-    &yellow {
-      @include bgColor($yellow);
-    }
-
-    &yellow-light {
-      @include bgColor($yellow-l);
-    }
-
-    &yellow-dark {
-      @include bgColor($yellow-d);
-    }
-
-    &yellow-ui {
-      @include bgColor($yellow-ui);
-    }
-
-    &-orange {
-      @include bgColor($orange);
-    }
-
-    &-orange-light {
-      @include bgColor($orange-l);
-    }
-
-    &-orange-dark {
-      @include bgColor($orange-d);
-    }
-
-    &-orange-ui {
-      @include bgColor($orange-ui);
-    }
-
+  &-primary-light {
+    @include color($primary-light);
   }
 
-  &-bc {
-    &-primary {
-      @include borderColor($primary);
-    }
+  &-secondary {
+    @include color($secondary);
+  }
 
-    &-primary-light {
-      @include borderColor($primary-light);
-    }
+  &-secondary-light {
+    @include color($secondary-light);
+  }
 
-    &-secondary {
-      @include borderColor($secondary);
-    }
+  &-success {
+    @include color($success);
+  }
 
-    &-secondary-light {
-      @include borderColor($secondary-light);
-    }
+  &-success-light {
+    @include color($success-light);
+  }
 
-    &-success {
-      @include borderColor($success);
-    }
+  &-info {
+    @include color($info);
+  }
 
-    &-success-light {
-      @include borderColor($success-light);
-    }
+  &-info-dark {
+    @include color($info-dark);
+  }
 
-    &-info {
-      @include borderColor($info);
-    }
+  &-warning {
+    @include color($warning);
+  }
 
-    &-info-dark {
-      @include borderColor($info-dark);
-    }
+  &-warning-light {
+    @include color($warning-light);
+  }
 
-    &-warning {
-      @include borderColor($warning);
-    }
+  &-danger {
+    @include color($danger);
+  }
 
-    &-warning-light {
-      @include borderColor($warning-light);
-    }
+  &-danger-light {
+    @include color($danger-light);
+  }
 
-    &-danger {
-      @include borderColor($danger);
-    }
+  &-light {
+    @include color($light);
+  }
 
-    &-danger-light {
-      @include borderColor($danger-light);
-    }
+  &-dark {
+    @include color($dark);
+  }
 
-    &-light {
-      @include borderColor($light);
-    }
+  &-green {
+    @include color($green);
+  }
 
-    &-dark {
-      @include borderColor($dark);
-    }
+  &-green-light {
+    @include color($green-l);
+  }
 
-    &-green {
-      @include borderColor($green);
-    }
+  &-green-dark {
+    @include color($green-d);
+  }
 
-    &-green-light {
-      @include borderColor($green-l);
-    }
+  &-green-ui {
+    @include color($green-ui);
+  }
 
-    &-green-dark {
-      @include borderColor($green-d);
-    }
+  &-blue {
+    @include color($blue);
+  }
 
-    &-green-ui {
-      @include borderColor($green-ui);
-    }
+  &-blue-light {
+    @include color($blue-l);
+  }
 
-    &-blue {
-      @include borderColor($blue);
-    }
+  &-blue-dark {
+    @include color($blue-d);
+  }
 
-    &-blue-light {
-      @include borderColor($blue-l);
-    }
+  &-blue-ui {
+    @include color($blue-ui);
+  }
 
-    &-blue-dark {
-      @include borderColor($blue-d);
-    }
+  &-red {
+    @include color($red);
+  }
 
-    &-blue-ui {
-      @include borderColor($blue-ui);
-    }
+  &-red-light {
+    @include color($red-l);
+  }
 
-    &-red {
-      @include borderColor($red);
-    }
+  &-red-dark {
+    @include color($red-d);
+  }
 
-    &-red-light {
-      @include borderColor($red-l);
-    }
+  &-red-ui {
+    @include color($red-ui);
+  }
 
-    &-red-dark {
-      @include borderColor($red-d);
-    }
+  &-pink {
+    @include color($pink);
+  }
 
-    &-red-ui {
-      @include borderColor($red-ui);
-    }
+  &-pink-ui {
+    @include color($pink-ui);
+  }
 
-    &-pink {
-      @include borderColor($pink);
-    }
+  &-purple {
+    @include color($purple);
+  }
 
-    &-pink-ui {
-      @include borderColor($pink-ui);
-    }
+  &-purple-light {
+    @include color($purple-l);
+  }
 
-    &-purple {
-      @include borderColor($purple);
-    }
+  &-purple-dark {
+    @include color($purple-d);
+  }
 
-    &-purple-light {
-      @include borderColor($purple-l);
-    }
+  &-purple-ui {
+    @include color($purple-ui);
+  }
 
-    &-purple-dark {
-      @include borderColor($purple-d);
-    }
+  &-turquoise {
+    @include color($turquoise);
+  }
 
-    &-purple-ui {
-      @include borderColor($purple-ui);
-    }
+  &-turquoise-light {
+    @include color($turquoise-l);
+  }
 
-    &-turquoise {
-      @include borderColor($turquoise);
-    }
+  &-turquoise-dark {
+    @include color($turquoise-d);
+  }
 
-    &-turquoise-light {
-      @include borderColor($turquoise-l);
-    }
+  &-turquoise-ui {
+    @include color($turquoise-ui);
+  }
 
-    &-turquoise-dark {
-      @include borderColor($turquoise-d);
-    }
+  &yellow {
+    @include color($yellow);
+  }
 
-    &-turquoise-ui {
-      @include borderColor($turquoise-ui);
-    }
+  &yellow-light {
+    @include color($yellow-l);
+  }
 
-    &yellow {
-      @include borderColor($yellow);
-    }
+  &yellow-dark {
+    @include color($yellow-d);
+  }
 
-    &yellow-light {
-      @include borderColor($yellow-l);
-    }
+  &yellow-ui {
+    @include color($yellow-ui);
+  }
 
-    &yellow-dark {
-      @include borderColor($yellow-d);
-    }
+  &-orange {
+    @include color($orange);
+  }
 
-    &yellow-ui {
-      @include borderColor($yellow-ui);
-    }
+  &-orange-light {
+    @include color($orange-l);
+  }
 
-    &-orange {
-      @include borderColor($orange);
-    }
+  &-orange-dark {
+    @include color($orange-d);
+  }
 
-    &-orange-light {
-      @include borderColor($orange-l);
-    }
-
-    &-orange-dark {
-      @include borderColor($orange-d);
-    }
-
-    &-orange-ui {
-      @include borderColor($orange-ui);
-    }
-
+  &-orange-ui {
+    @include color($orange-ui);
   }
 
 }
+
+.bg {
+  &-primary {
+    @include bgColor($primary);
+  }
+
+  &-primary-light {
+    @include bgColor($primary-light);
+  }
+
+  &-secondary {
+    @include bgColor($secondary);
+  }
+
+  &-secondary-light {
+    @include bgColor($secondary-light);
+  }
+
+  &-success {
+    @include bgColor($success);
+  }
+
+  &-success-light {
+    @include bgColor($success-light);
+  }
+
+  &-info {
+    @include bgColor($info);
+  }
+
+  &-info-dark {
+    @include bgColor($info-dark);
+  }
+
+  &-warning {
+    @include bgColor($warning);
+  }
+
+  &-warning-light {
+    @include bgColor($warning-light);
+  }
+
+  &-danger {
+    @include bgColor($danger);
+  }
+
+  &-danger-light {
+    @include bgColor($danger-light);
+  }
+
+  &-light {
+    @include bgColor($light);
+  }
+
+  &-dark {
+    @include bgColor($dark);
+  }
+
+  &-green {
+    @include bgColor($green);
+  }
+
+  &-green-light {
+    @include bgColor($green-l);
+  }
+
+  &-green-dark {
+    @include bgColor($green-d);
+  }
+
+  &-green-ui {
+    @include bgColor($green-ui);
+  }
+
+  &-blue {
+    @include bgColor($blue);
+  }
+
+  &-blue-light {
+    @include bgColor($blue-l);
+  }
+
+  &-blue-dark {
+    @include bgColor($blue-d);
+  }
+
+  &-blue-ui {
+    @include bgColor($blue-ui);
+  }
+
+  &-red {
+    @include bgColor($red);
+  }
+
+  &-red-light {
+    @include bgColor($red-l);
+  }
+
+  &-red-dark {
+    @include bgColor($red-d);
+  }
+
+  &-red-ui {
+    @include bgColor($red-ui);
+  }
+
+  &-pink {
+    @include bgColor($pink);
+  }
+
+  &-pink-ui {
+    @include bgColor($pink-ui);
+  }
+
+  &-purple {
+    @include bgColor($purple);
+  }
+
+  &-purple-light {
+    @include bgColor($purple-l);
+  }
+
+  &-purple-dark {
+    @include bgColor($purple-d);
+  }
+
+  &-purple-ui {
+    @include bgColor($purple-ui);
+  }
+
+  &-turquoise {
+    @include bgColor($turquoise);
+  }
+
+  &-turquoise-light {
+    @include bgColor($turquoise-l);
+  }
+
+  &-turquoise-dark {
+    @include bgColor($turquoise-d);
+  }
+
+  &-turquoise-ui {
+    @include bgColor($turquoise-ui);
+  }
+
+  &yellow {
+    @include bgColor($yellow);
+  }
+
+  &yellow-light {
+    @include bgColor($yellow-l);
+  }
+
+  &yellow-dark {
+    @include bgColor($yellow-d);
+  }
+
+  &yellow-ui {
+    @include bgColor($yellow-ui);
+  }
+
+  &-orange {
+    @include bgColor($orange);
+  }
+
+  &-orange-light {
+    @include bgColor($orange-l);
+  }
+
+  &-orange-dark {
+    @include bgColor($orange-d);
+  }
+
+  &-orange-ui {
+    @include bgColor($orange-ui);
+  }
+
+}
+
+.bc {
+  &-primary {
+    @include borderColor($primary);
+  }
+
+  &-primary-light {
+    @include borderColor($primary-light);
+  }
+
+  &-secondary {
+    @include borderColor($secondary);
+  }
+
+  &-secondary-light {
+    @include borderColor($secondary-light);
+  }
+
+  &-success {
+    @include borderColor($success);
+  }
+
+  &-success-light {
+    @include borderColor($success-light);
+  }
+
+  &-info {
+    @include borderColor($info);
+  }
+
+  &-info-dark {
+    @include borderColor($info-dark);
+  }
+
+  &-warning {
+    @include borderColor($warning);
+  }
+
+  &-warning-light {
+    @include borderColor($warning-light);
+  }
+
+  &-danger {
+    @include borderColor($danger);
+  }
+
+  &-danger-light {
+    @include borderColor($danger-light);
+  }
+
+  &-light {
+    @include borderColor($light);
+  }
+
+  &-dark {
+    @include borderColor($dark);
+  }
+
+  &-green {
+    @include borderColor($green);
+  }
+
+  &-green-light {
+    @include borderColor($green-l);
+  }
+
+  &-green-dark {
+    @include borderColor($green-d);
+  }
+
+  &-green-ui {
+    @include borderColor($green-ui);
+  }
+
+  &-blue {
+    @include borderColor($blue);
+  }
+
+  &-blue-light {
+    @include borderColor($blue-l);
+  }
+
+  &-blue-dark {
+    @include borderColor($blue-d);
+  }
+
+  &-blue-ui {
+    @include borderColor($blue-ui);
+  }
+
+  &-red {
+    @include borderColor($red);
+  }
+
+  &-red-light {
+    @include borderColor($red-l);
+  }
+
+  &-red-dark {
+    @include borderColor($red-d);
+  }
+
+  &-red-ui {
+    @include borderColor($red-ui);
+  }
+
+  &-pink {
+    @include borderColor($pink);
+  }
+
+  &-pink-ui {
+    @include borderColor($pink-ui);
+  }
+
+  &-purple {
+    @include borderColor($purple);
+  }
+
+  &-purple-light {
+    @include borderColor($purple-l);
+  }
+
+  &-purple-dark {
+    @include borderColor($purple-d);
+  }
+
+  &-purple-ui {
+    @include borderColor($purple-ui);
+  }
+
+  &-turquoise {
+    @include borderColor($turquoise);
+  }
+
+  &-turquoise-light {
+    @include borderColor($turquoise-l);
+  }
+
+  &-turquoise-dark {
+    @include borderColor($turquoise-d);
+  }
+
+  &-turquoise-ui {
+    @include borderColor($turquoise-ui);
+  }
+
+  &yellow {
+    @include borderColor($yellow);
+  }
+
+  &yellow-light {
+    @include borderColor($yellow-l);
+  }
+
+  &yellow-dark {
+    @include borderColor($yellow-d);
+  }
+
+  &yellow-ui {
+    @include borderColor($yellow-ui);
+  }
+
+  &-orange {
+    @include borderColor($orange);
+  }
+
+  &-orange-light {
+    @include borderColor($orange-l);
+  }
+
+  &-orange-dark {
+    @include borderColor($orange-d);
+  }
+
+  &-orange-ui {
+    @include borderColor($orange-ui);
+  }
+
+}
+

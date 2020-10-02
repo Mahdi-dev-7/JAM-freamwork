@@ -3,6 +3,7 @@
 @import "color";
 @import "../Variables/Variables";
 @import "margin&padding";
+@import "border";
 
 @mixin fw($W){
   font-weight: $W;
