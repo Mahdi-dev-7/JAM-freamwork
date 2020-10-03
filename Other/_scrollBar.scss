@@ -1,0 +1,594 @@
+@import "../Variables/Variables";
+@import "../Mixins/Mixins";
+
+body {
+  &[scrollbar="10"]::-webkit-scrollbar {
+    width: 10px !important;
+  }
+
+  &[scrollbar="15"]::-webkit-scrollbar {
+    width: 15px !important;
+  }
+
+  //  ...............................................................................
+
+  &[scrollbar-track-round="1"]::-webkit-scrollbar-track {
+    @include borderRadius(1px);
+  }
+
+  &[scrollbar-track-round="2"]::-webkit-scrollbar-track {
+    @include borderRadius(2px);
+  }
+
+  &[scrollbar-track-round="3"]::-webkit-scrollbar-track {
+    @include borderRadius(3px);
+  }
+
+  &[scrollbar-track-round="4"]::-webkit-scrollbar-track {
+    @include borderRadius(4px);
+  }
+
+  &[scrollbar-track-round="5"]::-webkit-scrollbar-track {
+    @include borderRadius(5px);
+  }
+
+  //  ...............................................................................
+
+  &[scrollbar-thumb-round="1"]::-webkit-scrollbar-thumb {
+    @include borderRadius(1px);
+  }
+
+  &[scrollbar-thumb-round="2"]::-webkit-scrollbar-thumb {
+    @include borderRadius(2px);
+  }
+
+  &[scrollbar-thumb-round="3"]::-webkit-scrollbar-thumb {
+    @include borderRadius(3px);
+  }
+
+  &[scrollbar-thumb-round="4"]::-webkit-scrollbar-thumb {
+    @include borderRadius(4px);
+  }
+
+  &[scrollbar-thumb-round="5"]::-webkit-scrollbar-thumb {
+    @include borderRadius(5px);
+  }
+
+  //  ...............................................................................
+
+  &[scrollbar-track="primary"]::-webkit-scrollbar-track {
+    @include bgColor($primary);
+  }
+
+  &[scrollbar-track="primary-light"]::-webkit-scrollbar-track {
+    @include bgColor($primary-light);
+  }
+
+  &[scrollbar-track="secondary"]::-webkit-scrollbar-track {
+    @include bgColor($secondary);
+  }
+
+  &[scrollbar-track="secondary-light"]::-webkit-scrollbar-track {
+    @include bgColor($secondary-light);
+  }
+
+  &[scrollbar-track="success"]::-webkit-scrollbar-track {
+    @include bgColor($success);
+  }
+
+  &[scrollbar-track="success-light"]::-webkit-scrollbar-track {
+    @include bgColor($success-light);
+  }
+
+  &[scrollbar-track="info"]::-webkit-scrollbar-track {
+    @include bgColor($info);
+  }
+
+  &[scrollbar-track="info-dark"]::-webkit-scrollbar-track {
+    @include bgColor($info-dark);
+  }
+
+  &[scrollbar-track="warning"]::-webkit-scrollbar-track {
+    @include bgColor($warning);
+  }
+
+  &[scrollbar-track="warning-light"]::-webkit-scrollbar-track {
+    @include bgColor($warning-light);
+  }
+
+  &[scrollbar-track="danger"]::-webkit-scrollbar-track {
+    @include bgColor($danger);
+  }
+
+  &[scrollbar-track="danger-light"]::-webkit-scrollbar-track {
+    @include bgColor($danger-light);
+  }
+
+  &[scrollbar-track="light"]::-webkit-scrollbar-track {
+    @include bgColor($light);
+  }
+
+  &[scrollbar-track="dark"]::-webkit-scrollbar-track {
+    @include bgColor($dark);
+  }
+
+  &[scrollbar-track="green"]::-webkit-scrollbar-track {
+    @include bgColor($green);
+  }
+
+  &[scrollbar-track="green-light"]::-webkit-scrollbar-track {
+    @include bgColor($green-l);
+  }
+
+  &[scrollbar-track="green-dark"]::-webkit-scrollbar-track {
+    @include bgColor($green-d);
+  }
+
+  &[scrollbar-track="green-ui"]::-webkit-scrollbar-track {
+    @include bgColor($green-ui);
+  }
+
+  &[scrollbar-track="$blue"]::-webkit-scrollbar-track {
+    @include bgColor($blue);
+  }
+
+  &[scrollbar-track="blue-light"]::-webkit-scrollbar-track {
+    @include bgColor($blue-l);
+  }
+
+  &[scrollbar-track="blue-dark"]::-webkit-scrollbar-track {
+    @include bgColor($blue-d);
+  }
+
+  &[scrollbar-track="$blue-ui"]::-webkit-scrollbar-track {
+    @include bgColor($blue-ui);
+  }
+
+  &[scrollbar-track="red"]::-webkit-scrollbar-track {
+    @include bgColor($red);
+  }
+
+  &[scrollbar-track="red-light"]::-webkit-scrollbar-track {
+    @include bgColor($red-l);
+  }
+
+  &[scrollbar-track="red-dark"]::-webkit-scrollbar-track {
+    @include bgColor($red-d);
+  }
+
+  &[scrollbar-track="red-ui"]::-webkit-scrollbar-track {
+    @include bgColor($red-ui);
+  }
+
+  &[scrollbar-track="pink"]::-webkit-scrollbar-track {
+    @include bgColor($pink);
+  }
+
+  &[scrollbar-track="pink-ui"]::-webkit-scrollbar-track {
+    @include bgColor($pink-ui);
+  }
+
+  &[scrollbar-track="purple"]::-webkit-scrollbar-track {
+    @include bgColor($purple);
+  }
+
+  &[scrollbar-track="purple-light"]::-webkit-scrollbar-track {
+    @include bgColor($purple-l);
+  }
+
+  &[scrollbar-track="purple-dark"]::-webkit-scrollbar-track {
+    @include bgColor($purple-d);
+  }
+
+  &[scrollbar-track="purple-ui"]::-webkit-scrollbar-track {
+    @include bgColor($purple-ui);
+  }
+
+  &[scrollbar-track="turquoise"]::-webkit-scrollbar-track {
+    @include bgColor($turquoise);
+  }
+
+  &[scrollbar-track="turquoise-light"]::-webkit-scrollbar-track {
+    @include bgColor($turquoise-l);
+  }
+
+  &[scrollbar-track="turquoise-dark"]::-webkit-scrollbar-track {
+    @include bgColor($turquoise-d);
+  }
+
+  &[scrollbar-track="turquoise-ui"]::-webkit-scrollbar-track {
+    @include bgColor($turquoise-ui);
+  }
+
+  &[scrollbar-track="yellow"]::-webkit-scrollbar-track {
+    @include bgColor($yellow);
+  }
+
+  &[scrollbar-track="yellow-light"]::-webkit-scrollbar-track {
+    @include bgColor($yellow-l);
+  }
+
+  &[scrollbar-track="yellow-dark"]::-webkit-scrollbar-track {
+    @include bgColor($yellow-d);
+  }
+
+  &[scrollbar-track="yellow-ui"]::-webkit-scrollbar-track {
+    @include bgColor($yellow-ui);
+  }
+
+  &[scrollbar-track="orange"]::-webkit-scrollbar-track {
+    @include bgColor($orange);
+  }
+
+  &[scrollbar-track="orange-light"]::-webkit-scrollbar-track {
+    @include bgColor($orange-l);
+  }
+
+  &[scrollbar-track="orange-dark"]::-webkit-scrollbar-track {
+    @include bgColor($orange-d);
+  }
+
+  &[scrollbar-track="orange-ui"]::-webkit-scrollbar-track {
+    @include bgColor($orange-ui);
+  }
+
+  //  ...............................................................................
+
+  &[scrollbar-thumb="primary"]::-webkit-scrollbar-thumb {
+    @include bgColor($primary);
+  }
+
+  &[scrollbar-thumb="primary-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($primary-light);
+  }
+
+  &[scrollbar-thumb="secondary"]::-webkit-scrollbar-thumb {
+    @include bgColor($secondary);
+  }
+
+  &[scrollbar-thumb="secondary-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($secondary-light);
+  }
+
+  &[scrollbar-thumb="success"]::-webkit-scrollbar-thumb {
+    @include bgColor($success);
+  }
+
+  &[scrollbar-thumb="success-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($success-light);
+  }
+
+  &[scrollbar-thumb="info"]::-webkit-scrollbar-thumb {
+    @include bgColor($info);
+  }
+
+  &[scrollbar-thumb="info-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($info-dark);
+  }
+
+  &[scrollbar-thumb="warning"]::-webkit-scrollbar-thumb {
+    @include bgColor($warning);
+  }
+
+  &[scrollbar-thumb="warning-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($warning-light);
+  }
+
+  &[scrollbar-thumb="danger"]::-webkit-scrollbar-thumb {
+    @include bgColor($danger);
+  }
+
+  &[scrollbar-thumb="danger-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($danger-light);
+  }
+
+  &[scrollbar-thumb="light"]::-webkit-scrollbar-thumb {
+    @include bgColor($light);
+  }
+
+  &[scrollbar-thumb="dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($dark);
+  }
+
+  &[scrollbar-thumb="green"]::-webkit-scrollbar-thumb {
+    @include bgColor($green);
+  }
+
+  &[scrollbar-thumb="green-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($green-l);
+  }
+
+  &[scrollbar-thumb="green-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($green-d);
+  }
+
+  &[scrollbar-thumb="green-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($green-ui);
+  }
+
+  &[scrollbar-thumb="$blue"]::-webkit-scrollbar-thumb {
+    @include bgColor($blue);
+  }
+
+  &[scrollbar-thumb="blue-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($blue-l);
+  }
+
+  &[scrollbar-thumb="blue-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($blue-d);
+  }
+
+  &[scrollbar-thumb="$blue-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($blue-ui);
+  }
+
+  &[scrollbar-thumb="red"]::-webkit-scrollbar-thumb {
+    @include bgColor($red);
+  }
+
+  &[scrollbar-thumb="red-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($red-l);
+  }
+
+  &[scrollbar-thumb="red-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($red-d);
+  }
+
+  &[scrollbar-thumb="red-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($red-ui);
+  }
+
+  &[scrollbar-thumb="pink"]::-webkit-scrollbar-thumb {
+    @include bgColor($pink);
+  }
+
+  &[scrollbar-thumb="pink-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($pink-ui);
+  }
+
+  &[scrollbar-thumb="purple"]::-webkit-scrollbar-thumb {
+    @include bgColor($purple);
+  }
+
+  &[scrollbar-thumb="purple-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($purple-l);
+  }
+
+  &[scrollbar-thumb="purple-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($purple-d);
+  }
+
+  &[scrollbar-thumb="purple-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($purple-ui);
+  }
+
+  &[scrollbar-thumb="turquoise"]::-webkit-scrollbar-thumb {
+    @include bgColor($turquoise);
+  }
+
+  &[scrollbar-thumb="turquoise-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($turquoise-l);
+  }
+
+  &[scrollbar-thumb="turquoise-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($turquoise-d);
+  }
+
+  &[scrollbar-thumb="turquoise-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($turquoise-ui);
+  }
+
+  &[scrollbar-thumb="yellow"]::-webkit-scrollbar-thumb {
+    @include bgColor($yellow);
+  }
+
+  &[scrollbar-thumb="yellow-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($yellow-l);
+  }
+
+  &[scrollbar-thumb="yellow-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($yellow-d);
+  }
+
+  &[scrollbar-thumb="yellow-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($yellow-ui);
+  }
+
+  &[scrollbar-thumb="orange"]::-webkit-scrollbar-thumb {
+    @include bgColor($orange);
+  }
+
+  &[scrollbar-thumb="orange-light"]::-webkit-scrollbar-thumb {
+    @include bgColor($orange-l);
+  }
+
+  &[scrollbar-thumb="orange-dark"]::-webkit-scrollbar-thumb {
+    @include bgColor($orange-d);
+  }
+
+  &[scrollbar-thumb="orange-ui"]::-webkit-scrollbar-thumb {
+    @include bgColor($orange-ui);
+  }
+
+  //  ...............................................................................
+
+  &[scrollbar-thumb-hvr="primary"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($primary);
+  }
+
+  &[scrollbar-thumb-hvr="primary-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($primary-light);
+  }
+
+  &[scrollbar-thumb-hvr="secondary"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($secondary);
+  }
+
+  &[scrollbar-thumb-hvr="secondary-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($secondary-light);
+  }
+
+  &[scrollbar-thumb-hvr="success"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($success);
+  }
+
+  &[scrollbar-thumb-hvr="success-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($success-light);
+  }
+
+  &[scrollbar-thumb-hvr="info"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($info);
+  }
+
+  &[scrollbar-thumb-hvr="info-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($info-dark);
+  }
+
+  &[scrollbar-thumb-hvr="warning"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($warning);
+  }
+
+  &[scrollbar-thumb-hvr="warning-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($warning-light);
+  }
+
+  &[scrollbar-thumb-hvr="danger"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($danger);
+  }
+
+  &[scrollbar-thumb-hvr="danger-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($danger-light);
+  }
+
+  &[scrollbar-thumb-hvr="light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($light);
+  }
+
+  &[scrollbar-thumb-hvr="dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($dark);
+  }
+
+  &[scrollbar-thumb-hvr="green"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($green);
+  }
+
+  &[scrollbar-thumb-hvr="green-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($green-l);
+  }
+
+  &[scrollbar-thumb-hvr="green-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($green-d);
+  }
+
+  &[scrollbar-thumb-hvr="green-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($green-ui);
+  }
+
+  &[scrollbar-thumb-hvr="$blue"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($blue);
+  }
+
+  &[scrollbar-thumb-hvr="blue-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($blue-l);
+  }
+
+  &[scrollbar-thumb-hvr="blue-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($blue-d);
+  }
+
+  &[scrollbar-thumb-hvr="$blue-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($blue-ui);
+  }
+
+  &[scrollbar-thumb-hvr="red"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($red);
+  }
+
+  &[scrollbar-thumb-hvr="red-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($red-l);
+  }
+
+  &[scrollbar-thumb-hvr="red-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($red-d);
+  }
+
+  &[scrollbar-thumb-hvr="red-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($red-ui);
+  }
+
+  &[scrollbar-thumb-hvr="pink"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($pink);
+  }
+
+  &[scrollbar-thumb-hvr="pink-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($pink-ui);
+  }
+
+  &[scrollbar-thumb-hvr="purple"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($purple);
+  }
+
+  &[scrollbar-thumb-hvr="purple-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($purple-l);
+  }
+
+  &[scrollbar-thumb-hvr="purple-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($purple-d);
+  }
+
+  &[scrollbar-thumb-hvr="purple-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($purple-ui);
+  }
+
+  &[scrollbar-thumb-hvr="turquoise"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($turquoise);
+  }
+
+  &[scrollbar-thumb-hvr="turquoise-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($turquoise-l);
+  }
+
+  &[scrollbar-thumb-hvr="turquoise-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($turquoise-d);
+  }
+
+  &[scrollbar-thumb-hvr="turquoise-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($turquoise-ui);
+  }
+
+  &[scrollbar-thumb-hvr="yellow"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($yellow);
+  }
+
+  &[scrollbar-thumb-hvr="yellow-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($yellow-l);
+  }
+
+  &[scrollbar-thumb-hvr="yellow-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($yellow-d);
+  }
+
+  &[scrollbar-thumb-hvr="yellow-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($yellow-ui);
+  }
+
+  &[scrollbar-thumb-hvr="orange"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($orange);
+  }
+
+  &[scrollbar-thumb-hvr="orange-light"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($orange-l);
+  }
+
+  &[scrollbar-thumb-hvr="orange-dark"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($orange-d);
+  }
+
+  &[scrollbar-thumb-hvr="orange-ui"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($orange-ui);
+  }
+
+  //  ...............................................................................
+
+}
+
