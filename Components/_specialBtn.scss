@@ -4,9 +4,9 @@
 .SBtn {
   @include color(#c12e19);
   @include borderRadius(5px);
-  @include transition(all,0.5s);
+  @include transition(all, 0.5s);
   background: none;
-  @include border(2px,solid);
+  @include border(2px, solid);
   font: inherit !important;
   line-height: 1;
   margin: 0.5em !important;
@@ -24,14 +24,61 @@
       @include color(#ffffff);
     }
   }
-  &-raise{
+
+  &-raise {
     &:hover,
-    &:focus{
+    &:focus {
       @include color(#e1e1e1);
       @include borderColor(#c1ba1d);
       @include bgColor(#c1ba1d);
       box-shadow: 0 3em 2em -0.85em #c1ba1d !important;
       transform: translateY(-0.25em);
     }
+  }
+}
+
+.SBtn-curl-bottom-right {
+  @include color(#000000);
+  @include p(1);
+  @include txtDec(none);
+  @include borderRadius(5px);
+  top: 50%;
+  right: 15%;
+  @include bgColor(#e1e1e1);
+  //....................................
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  @include dis(inline-block);
+  position: relative;
+  transform: translateZ(0px);
+  vertical-align: middle;
+
+  &::before {
+    background: rgba(0, 0, 0, 0) linear-gradient(315deg, #ffffff 45%, #aaaaaa 50%, #cccccc 56%, white 80%) repeat scroll 0 0;
+    /*display smooth transitions between two or more specified colors */
+    bottom: 0;
+    @include borderRadius(5px);
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    content: "";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    @include transition(all, 0.3s);
+    transition-property: width, height;
+    width: 0;
+  }
+
+
+  &:hover {
+    @include txtDec(none);
+    @include color(#000000);
+  }
+
+  &:hover::before,
+  &:focus::before,
+  &:active::before {
+    height: 25px;
+    width: 25px;
   }
 }

@@ -8,3 +8,9 @@
 @mixin fw($W){
   font-weight: $W;
 }
+@mixin txtDec($model){
+  text-decoration: $model;
+}
+@mixin dis($dis){
+  display: $dis;
+}
