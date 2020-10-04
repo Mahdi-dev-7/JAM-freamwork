@@ -128,7 +128,7 @@ body {
     @include bgColor($green-ui);
   }
 
-  &[scrollbar-track="$blue"]::-webkit-scrollbar-track {
+  &[scrollbar-track="blue"]::-webkit-scrollbar-track {
     @include bgColor($blue);
   }
 
@@ -140,7 +140,7 @@ body {
     @include bgColor($blue-d);
   }
 
-  &[scrollbar-track="$blue-ui"]::-webkit-scrollbar-track {
+  &[scrollbar-track="blue-ui"]::-webkit-scrollbar-track {
     @include bgColor($blue-ui);
   }
 
@@ -306,7 +306,7 @@ body {
     @include bgColor($green-ui);
   }
 
-  &[scrollbar-thumb="$blue"]::-webkit-scrollbar-thumb {
+  &[scrollbar-thumb="blue"]::-webkit-scrollbar-thumb {
     @include bgColor($blue);
   }
 
@@ -318,7 +318,7 @@ body {
     @include bgColor($blue-d);
   }
 
-  &[scrollbar-thumb="$blue-ui"]::-webkit-scrollbar-thumb {
+  &[scrollbar-thumb="blue-ui"]::-webkit-scrollbar-thumb {
     @include bgColor($blue-ui);
   }
 
@@ -484,7 +484,7 @@ body {
     @include bgColor($green-ui);
   }
 
-  &[scrollbar-thumb-hvr="$blue"]::-webkit-scrollbar-thumb:hover {
+  &[scrollbar-thumb-hvr="blue"]::-webkit-scrollbar-thumb:hover {
     @include bgColor($blue);
   }
 
@@ -496,7 +496,7 @@ body {
     @include bgColor($blue-d);
   }
 
-  &[scrollbar-thumb-hvr="$blue-ui"]::-webkit-scrollbar-thumb:hover {
+  &[scrollbar-thumb-hvr="blue-ui"]::-webkit-scrollbar-thumb:hover {
     @include bgColor($blue-ui);
   }
 
