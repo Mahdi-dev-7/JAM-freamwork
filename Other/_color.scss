@@ -148,19 +148,19 @@
     @include color($turquoise-ui);
   }
 
-  &yellow {
+  &-yellow {
     @include color($yellow);
   }
 
-  &yellow-light {
+  &-yellow-light {
     @include color($yellow-l);
   }
 
-  &yellow-dark {
+  &-yellow-dark {
     @include color($yellow-d);
   }
 
-  &yellow-ui {
+  &-yellow-ui {
     @include color($yellow-ui);
   }
 
@@ -327,19 +327,19 @@
     @include bgColor($turquoise-ui);
   }
 
-  &yellow {
+  &-yellow {
     @include bgColor($yellow);
   }
 
-  &yellow-light {
+  &-yellow-light {
     @include bgColor($yellow-l);
   }
 
-  &yellow-dark {
+  &-yellow-dark {
     @include bgColor($yellow-d);
   }
 
-  &yellow-ui {
+  &-yellow-ui {
     @include bgColor($yellow-ui);
   }
 
@@ -506,19 +506,19 @@
     @include borderColor($turquoise-ui);
   }
 
-  &yellow {
+  &-yellow {
     @include borderColor($yellow);
   }
 
-  &yellow-light {
+  &-yellow-light {
     @include borderColor($yellow-l);
   }
 
-  &yellow-dark {
+  &-yellow-dark {
     @include borderColor($yellow-d);
   }
 
-  &yellow-ui {
+  &-yellow-ui {
     @include borderColor($yellow-ui);
   }
 
