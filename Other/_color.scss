@@ -60,6 +60,18 @@
     @include color($dark);
   }
 
+  &-black {
+    @include color($black);
+  }
+
+  &-black-ui-1 {
+    @include color($black-ui-1);
+  }
+
+  &-black-ui-2 {
+    @include color($black-ui-2);
+  }
+
   &-green {
     @include color($green);
   }
@@ -239,6 +251,18 @@
     @include bgColor($dark);
   }
 
+  &-black {
+    @include bgColor($black);
+  }
+
+  &-black-ui-1 {
+    @include bgColor($black-ui-1);
+  }
+
+  &-black-ui-2 {
+    @include bgColor($black-ui-2);
+  }
+
   &-green {
     @include bgColor($green);
   }
@@ -416,6 +440,18 @@
 
   &-dark {
     @include borderColor($dark);
+  }
+
+  &-black {
+    @include borderColor($black);
+  }
+
+  &-black-ui-1 {
+    @include borderColor($black-ui-1);
+  }
+
+  &-black-ui-2 {
+    @include borderColor($black-ui-2);
   }
 
   &-green {

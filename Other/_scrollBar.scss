@@ -2,8 +2,32 @@
 @import "../Mixins/Mixins";
 
 body {
+  &[scrollbar="8"]::-webkit-scrollbar {
+    width: 8px !important;
+  }
+
+  &[scrollbar="9"]::-webkit-scrollbar {
+    width: 9px !important;
+  }
+
   &[scrollbar="10"]::-webkit-scrollbar {
     width: 10px !important;
+  }
+
+  &[scrollbar="11"]::-webkit-scrollbar {
+    width: 11px !important;
+  }
+
+  &[scrollbar="12"]::-webkit-scrollbar {
+    width: 12px !important;
+  }
+
+  &[scrollbar="13"]::-webkit-scrollbar {
+    width: 13px !important;
+  }
+
+  &[scrollbar="14"]::-webkit-scrollbar {
+    width: 14px !important;
   }
 
   &[scrollbar="15"]::-webkit-scrollbar {
@@ -110,6 +134,18 @@ body {
 
   &[scrollbar-track="dark"]::-webkit-scrollbar-track {
     @include bgColor($dark);
+  }
+
+  &[scrollbar-track="black"]::-webkit-scrollbar-track {
+    @include bgColor($black);
+  }
+
+  &[scrollbar-track="black-ui-1"]::-webkit-scrollbar-track {
+    @include bgColor($black-ui-1);
+  }
+
+  &[scrollbar-track="black-ui-2"]::-webkit-scrollbar-track {
+    @include bgColor($black-ui-2);
   }
 
   &[scrollbar-track="green"]::-webkit-scrollbar-track {
@@ -290,6 +326,18 @@ body {
     @include bgColor($dark);
   }
 
+  &[scrollbar-track="black"]::-webkit-scrollbar-thumb {
+    @include bgColor($black);
+  }
+
+  &[scrollbar-track="black-ui-1"]::-webkit-scrollbar-thumb {
+    @include bgColor($black-ui-1);
+  }
+
+  &[scrollbar-track="black-ui-2"]::-webkit-scrollbar-thumb {
+    @include bgColor($black-ui-2);
+  }
+
   &[scrollbar-thumb="green"]::-webkit-scrollbar-thumb {
     @include bgColor($green);
   }
@@ -466,6 +514,18 @@ body {
 
   &[scrollbar-thumb-hvr="dark"]::-webkit-scrollbar-thumb:hover {
     @include bgColor($dark);
+  }
+
+  &[scrollbar-track="black"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($black);
+  }
+
+  &[scrollbar-track="black-ui-1"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($black-ui-1);
+  }
+
+  &[scrollbar-track="black-ui-2"]::-webkit-scrollbar-thumb:hover {
+    @include bgColor($black-ui-2);
   }
 
   &[scrollbar-thumb-hvr="green"]::-webkit-scrollbar-thumb:hover {
